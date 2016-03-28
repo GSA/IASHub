@@ -1,12 +1,12 @@
 permalink: /:year/:month/:day/:title/
-url: http://idratherbewriting.com
-baseurl: "/documentation-theme-jekyll"
+url: http://iashub.apps.cloud.gov
+baseurl: ""
 output: web
-topnav_title: Jekyll Documentation Theme
-site_title: Jekyll theme for designers
-company_name: Your company
-github_editme_path: tomjohnson1492/documentation-theme-jekyll/edit/reviews
-disqus_shortname: idrbwjekyll
+topnav_title: IAS Hub
+site_title: One stop shop for IAS team members
+company_name: US General Services Administration
+github_editme_path: GSA/iashub/edit/reviews
+# disqus_shortname:
 host: 127.0.0.1
 port: 4009
 
@@ -15,7 +15,7 @@ exclude:
   - _drafts
   - configs/
 
-feedback_email: tomjohnson1492@gmail.com
+feedback_email: mark.vogelgesang@gsa.gov
 
 
 highlighter: rouge
