@@ -13,6 +13,7 @@ port: 4009
 exclude:
   - _site
   - _drafts
+  - vendor
   - configs/
 
 feedback_email: mark.vogelgesang@gsa.gov
