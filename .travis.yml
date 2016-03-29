@@ -6,7 +6,7 @@ deploy:
   password:
     secure: EcJGXW4+AFK/3WkuuiGOm6vS+CHeztg+gMRlawYaojkPCTcMLGx0EJ4ss8hAVTsjzVjUD8kks+B3ZrHA3yVKJcjygRHzpYYYdnHtKys0NU92bbCd+habRT8EhFDoXZXJkWxs0rELyME1ffcDs8nIxQo71beFGLCRX+U8p2AaW8Y/LjVDbvgLfUnRbF9zyGGOWUyra5LW+mHDmB+Ax90BwW179qBuoDvHQsUfE+hrJ0U2neLic+0YDwC5pDV1eYQmResBYA9mQzarrVCmdXBrskSXufTWwu4fdljh1iSkXBPzN36DsjC24Xc/atkH3SMz6PDWpInw3sAiJsHUBYiTyn16UUVPxYYun4EF6S1Cmb49CleUxPaFoLp+7cJ9e7upR8DlZmZ0k47QSa1vcPQyy5agjpLnVjt0nLrwa3nsr0WODr/wVZrU1OEqS/DOmSsh7Z5KOPvy78E45tJqwvG+j2PZsN5SswAs49jYsper8XYNPQFTMTxXrFZFf8wldBZTIlQGF7R48C70X+cMdUDdj/KAwsXaG64vBfhBSl1/YETRc73th6/o+Q/EGSK05E/gF6HVMbxx6cZLE8eh24Dq8O1bHzrdYYnuPWJaoqnZLyQTye1gu/80+b2cjocz6kiHGATV9ksCG/TFDOxOtJQmN4tKvTtkPB6Kxk5ucXo5/Pg=
   organization: SANDBOX
-  space: mark.vogelgesang@gsa.gov
+  space: mark.vogelgesang
   on:
     repo: GSA/IASHub
     branch: working-example
