@@ -10,3 +10,6 @@ deploy:
   on:
     repo: GSA/IASHub
     branch: working-example
+language: ruby
+rvm: 2.1.1
+script: "bundle exec jekyll build"
