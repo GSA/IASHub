@@ -2,14 +2,14 @@ edge: true
 deploy:
   provider: cloudfoundry
   api: https://api.cloud.gov
-  username: mark.vogelgesang
+  username: mark.vogelgesang@gsa.gov
   password:
-    secure: bFGwLtrePE+v3EKVnHe2eFIakdxAng3KQ/WDSPAwO2dB6QGFj166R6srWSv2kGVFSC6/1iR4pWBeieJqa1I8FjJ7eg6U9NXEPXf6ux45rnnzgj3mdD1InJdvBh4uMhU3ZShK0Y3uYXEmKgzR8lqH8kMybrkVQH6toTstVNr1qdMQgB/WYEc+vATL9Ese+ym1akf3UGBv2SoYKARoK7oKPcVkFXy4FffG4wq7UeTH1WjaUBEBSBZFZXL8OYcNKBnMwuDwT2rZCDyiH+yiMA06e86ImxhgUt8QEI2GWXbAXePH2ZZObV3Rvl8C4FVMYICHquykMI6jAp2508WT4+G9MFlaCb3xSR9pbQRDSQcjELmaV96Oumkk7Y6RDBb45U/pOlx3rHj2ZbDrlYB/bGrv7l8gaE25+wOpi++R9inxnaApo5UxIhhxqRDNDUnRd18vpwUnSQuPsi+c6DKE9Lx1ewkbH87V2xhgF00XWM2/wMx5hCO1qYHB2+VLK89+rAS0Z30eRtrWchQhnOat4toGZzRK/P2V8nFU5YulhXBsLlDbL4Dzsa1wvadvae7EdkJVDM5fz2oymxKBqZvEpb3A+xVl6tlbJWN165hRKZgX8l5U2P6oqWunD7NSa7JiwwS1wVtyKi1YJ4wesIC5KNl446elbZ+b9nWTADzNy9q6mP0=
+    secure: EcJGXW4+AFK/3WkuuiGOm6vS+CHeztg+gMRlawYaojkPCTcMLGx0EJ4ss8hAVTsjzVjUD8kks+B3ZrHA3yVKJcjygRHzpYYYdnHtKys0NU92bbCd+habRT8EhFDoXZXJkWxs0rELyME1ffcDs8nIxQo71beFGLCRX+U8p2AaW8Y/LjVDbvgLfUnRbF9zyGGOWUyra5LW+mHDmB+Ax90BwW179qBuoDvHQsUfE+hrJ0U2neLic+0YDwC5pDV1eYQmResBYA9mQzarrVCmdXBrskSXufTWwu4fdljh1iSkXBPzN36DsjC24Xc/atkH3SMz6PDWpInw3sAiJsHUBYiTyn16UUVPxYYun4EF6S1Cmb49CleUxPaFoLp+7cJ9e7upR8DlZmZ0k47QSa1vcPQyy5agjpLnVjt0nLrwa3nsr0WODr/wVZrU1OEqS/DOmSsh7Z5KOPvy78E45tJqwvG+j2PZsN5SswAs49jYsper8XYNPQFTMTxXrFZFf8wldBZTIlQGF7R48C70X+cMdUDdj/KAwsXaG64vBfhBSl1/YETRc73th6/o+Q/EGSK05E/gF6HVMbxx6cZLE8eh24Dq8O1bHzrdYYnuPWJaoqnZLyQTye1gu/80+b2cjocz6kiHGATV9ksCG/TFDOxOtJQmN4tKvTtkPB6Kxk5ucXo5/Pg=
   organization: SANDBOX
-  space: mark.vogelgesang
+  space: mark.vogelgesang@gsa.gov
   on:
     repo: GSA/IASHub
     branch: working-example
 language: ruby
 rvm: 2.1.1
-script: "bundle exec jekyll build"
+script: bundle exec jekyll build
